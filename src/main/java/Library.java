@@ -12,4 +12,8 @@ public class Library {
     public String getName(){
         return this.name;
     }
+
+    public int stockCount(){
+        return this.stock.size();
+    }
 }
