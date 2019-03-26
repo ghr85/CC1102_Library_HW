@@ -8,6 +8,8 @@ public class BookTest {
         book = new Book("The iliad", "Homer",-750);
     }
     @Test
-    public void 
+    public void hasTitle(){
+        assertEquals("The ilead", book.getTitle());
+    }
 
 }
