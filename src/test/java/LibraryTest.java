@@ -45,7 +45,7 @@ public class LibraryTest {
 @Test
     public void canCheckOutBook(){
     library.addBook(book);
-    library.checkOutBook(book);
+    library.checkOutBook();
     assertEquals(0,library.stockCount());
 }
 

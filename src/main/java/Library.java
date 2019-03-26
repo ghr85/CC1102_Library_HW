@@ -24,8 +24,8 @@ public class Library {
             this.stock.add(book);
         }
     }
-    public void checkOutBook(Book){
-        this.stock
+    public Book checkOutBook(){
+        return this.stock.remove(0);
     }
 
     public int getCapacity(){
