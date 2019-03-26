@@ -11,4 +11,8 @@ public Patron(String name){
 public String getName(){
     return this.name;
 }
+
+public int countBooks(){
+    return this.subscriptions.size();
+}
 }
