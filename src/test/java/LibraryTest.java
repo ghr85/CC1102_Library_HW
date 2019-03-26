@@ -7,10 +7,13 @@ import static junit.framework.TestCase.assertEquals;
 public class LibraryTest {
    private Library library;
    private Book book;
+   private Patron patron;
+
 @Before
     public void before(){
     library = new Library("The Turning Leaf", 4);
     book = new Book("The iliad", "Homer","Classic",-750);
+    patron = new Patron("Davina");
 }
 @Test
     public void hasName(){
@@ -45,8 +48,10 @@ public class LibraryTest {
 @Test
     public void canCheckOutBook(){
     library.addBook(book);
-    library.checkOutBook();
+    Book checkOut = library.checkOutBook();
+    patron.rentBook(checkOut);
     assertEquals(0,library.stockCount());
+    assertEquals(1,patron.countBooks());
 }
 
 
