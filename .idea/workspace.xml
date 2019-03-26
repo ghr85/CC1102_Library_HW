@@ -477,7 +477,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553623043961" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553623167464" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -518,6 +518,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LibraryTest.hasCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Week11day2LibrariesHomework_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LibraryTest" />
+      <option name="METHOD_NAME" value="hasCapacity" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LibraryTest.startsWithEmptyStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Week11day2LibrariesHomework_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -533,10 +543,12 @@
       <item itemvalue="JUnit.LibraryTest" />
       <item itemvalue="JUnit.LibraryTest.startsWithEmptyStock" />
       <item itemvalue="JUnit.LibraryTest.canAddBookToStock" />
+      <item itemvalue="JUnit.LibraryTest.hasCapacity" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.LibraryTest" />
+        <item itemvalue="JUnit.LibraryTest.hasCapacity" />
         <item itemvalue="JUnit.LibraryTest.canAddBookToStock" />
         <item itemvalue="JUnit.LibraryTest.startsWithEmptyStock" />
         <item itemvalue="JUnit.BookTest" />
