@@ -23,6 +23,8 @@ public class Book {
         return this.genre;
     }
 
-
+    public Integer getDate(){
+        return this.yearOfPublish;
+    }
 
 }

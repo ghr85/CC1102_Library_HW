@@ -9,6 +9,7 @@ See instructions.md for precise tasks.
 
 #### Notes
 * Again start by Testing, Failing then coding to pass
+* Remember Delta value can be used to negate type irregularities when comparing an object with it's related primitive i.e. -750
 
 #### Files
 

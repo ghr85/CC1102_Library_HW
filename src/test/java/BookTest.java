@@ -2,6 +2,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
+import static junit.framework.TestCase.assertSame;
 
 public class BookTest {
     private Book book;
@@ -26,7 +27,7 @@ public class BookTest {
 
     @Test
     public void hasDate(){
-        assertEquals(-750,bookgetDate());
+        assertEquals(-750,book.getDate(),0.0);
     }
 
 }
