@@ -19,4 +19,8 @@ public class Book {
         return this.author;
     }
 
+    public String getGenre(){
+        return this.genre;
+    }
+
 }
