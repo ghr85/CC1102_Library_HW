@@ -20,10 +20,20 @@ public class Library {
     }
 
     public void addBook(Book book){
-        this.stock.add(book);
+        if (this.checkCapacity()) {
+            this.stock.add(book);
+        }
     }
 
     public int getCapacity(){
        return this.capacity;
+    }
+
+    public boolean checkCapacity() {
+        if (this.stockCount() < this.capacity) {
+            return true;
+        } else {
+            return false;
+        }
     }
 }
