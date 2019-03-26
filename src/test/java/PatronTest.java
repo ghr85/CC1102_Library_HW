@@ -29,4 +29,11 @@ public class PatronTest {
         patron.rentBook(book);
         assertEquals(1,patron.countBooks());
     }
+
+    @Test
+    public void canReturnBook(){
+        patron.rentBook(book);
+        patron.returnBook(book);
+        assertEquals(0,patron.countBooks());
+    }
 }

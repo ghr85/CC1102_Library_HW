@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3307a1d-dae5-48f6-bc6d-c4127b43cd58" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Patron.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Patron.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PatronTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PatronTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -34,7 +34,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3078" />
+          <entry key="JAVA" value="3185" />
           <entry key="Markdown" value="598" />
         </counts>
       </usages-collector>
@@ -66,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PatronTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            <state relative-caret-position="106">
+              <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#234#235#0" expanded="true" />
@@ -82,7 +82,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Patron.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -464,8 +464,8 @@
         <option value="$PROJECT_DIR$/instructions.md" />
         <option value="$PROJECT_DIR$/src/test/java/LibraryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Book.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PatronTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Patron.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PatronTest.java" />
       </list>
     </option>
   </component>
@@ -528,7 +528,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553625579779" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553626000909" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -542,19 +542,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in Week11day2LibrariesHomework_test">
+  <component name="RunManager" selected="JUnit.PatronTest.canReturnBook">
     <configuration name="All in Week11day2LibrariesHomework_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Week11day2LibrariesHomework_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Week11day2LibrariesHomework_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BookTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -569,11 +561,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryTest.canAddBookToStock_negative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PatronTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Week11day2LibrariesHomework_test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LibraryTest" />
-      <option name="METHOD_NAME" value="canAddBookToStock_negative" />
+      <option name="MAIN_CLASS_NAME" value="PatronTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PatronTest.canReturnBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Week11day2LibrariesHomework_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PatronTest" />
+      <option name="METHOD_NAME" value="canReturnBook" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -591,18 +591,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.LibraryTest.canAddBookToStock" />
-      <item itemvalue="JUnit.LibraryTest.canAddBookToStock_negative" />
-      <item itemvalue="JUnit.BookTest" />
       <item itemvalue="JUnit.All in Week11day2LibrariesHomework_test" />
       <item itemvalue="JUnit.PatronTest.startsWithEmptySubscriptions" />
+      <item itemvalue="JUnit.PatronTest" />
+      <item itemvalue="JUnit.PatronTest.canReturnBook" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PatronTest.canReturnBook" />
+        <item itemvalue="JUnit.PatronTest" />
         <item itemvalue="JUnit.All in Week11day2LibrariesHomework_test" />
         <item itemvalue="JUnit.PatronTest.startsWithEmptySubscriptions" />
         <item itemvalue="JUnit.LibraryTest.canAddBookToStock" />
-        <item itemvalue="JUnit.BookTest" />
-        <item itemvalue="JUnit.LibraryTest.canAddBookToStock_negative" />
       </list>
     </recent_temporary>
   </component>
@@ -617,9 +617,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LibraryTest - 2019.03.26 at 17h 53m 53s.xml">
-      <configuration name="LibraryTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LibraryTest_hasCapacity - 2019.03.26 at 17h 59m 18s.xml">
       <configuration name="LibraryTest.hasCapacity" configurationId="JUnit" />
     </history-entry>
@@ -647,6 +644,9 @@
     <history-entry file="PatronTest_startsWithEmptySubscriptions - 2019.03.26 at 18h 32m 09s.xml">
       <configuration name="PatronTest.startsWithEmptySubscriptions" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_Week11day2LibrariesHomework_test - 2019.03.26 at 18h 39m 44s.xml">
+      <configuration name="All in Week11day2LibrariesHomework_test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="710" extended-state="6" />
@@ -664,10 +664,10 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Build" weight="0.32890365" />
-      <window_info anchor="bottom" id="Messages" weight="0.32890365" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32890365" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32890365" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32890365" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -751,20 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PatronTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Patron.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -776,6 +762,20 @@
             <element signature="e#329#330#0" expanded="true" />
             <element signature="e#354#355#0" expanded="true" />
             <element signature="e#389#390#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PatronTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
           </folding>
         </state>
       </provider>
