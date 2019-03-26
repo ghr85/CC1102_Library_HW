@@ -14,4 +14,9 @@ public class LibraryTest {
     public void hasName(){
     assertEquals("The Turning Leaf",library.getName());
 }
+
+@Test
+    public void startsWithEmptyStock(){
+    assertEquals(0, library.stockCount());
+}
 }
