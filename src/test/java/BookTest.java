@@ -23,4 +23,10 @@ public class BookTest {
     public void hasGenre(){
         assertEquals("Classic", book.getGenre());
     }
+
+    @Test
+    public void hasDate(){
+        assertEquals(-750,bookgetDate());
+    }
+
 }
