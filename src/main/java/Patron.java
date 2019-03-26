@@ -18,4 +18,7 @@ public int countBooks(){
 public void rentBook(Book book){
     this.subscriptions.add(book);
 }
+public Book returnBook(){
+    return this.subscriptions.remove(0);
+}
 }

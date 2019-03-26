@@ -33,7 +33,7 @@ public class PatronTest {
     @Test
     public void canReturnBook(){
         patron.rentBook(book);
-        patron.returnBook(book);
+        patron.returnBook();
         assertEquals(0,patron.countBooks());
     }
 }
