@@ -14,4 +14,8 @@ public class BookTest {
         assertEquals("The iliad", book.getTitle());
     }
 
+    @Test
+    public void hasAuthor(){
+        assertEquals("Homer",book.getAuthor());
+    }
 }
