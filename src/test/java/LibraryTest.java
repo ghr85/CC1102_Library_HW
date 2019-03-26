@@ -5,13 +5,13 @@ import org.junit.Test;
 import static junit.framework.TestCase.assertEquals;
 
 public class LibraryTest {
-   private LibraryTest libraryTest;
+   private Library library;
 @Before
     public void before(){
-    libraryTest = new LibraryTest("The Turning Leaf");
+    library = new Library("The Turning Leaf");
 }
 @Test
     public void hasName(){
-    assertEquals("The Turning Leaf",libraryTest.getName());
+    assertEquals("The Turning Leaf",library.getName());
 }
 }
