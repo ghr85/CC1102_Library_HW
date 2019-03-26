@@ -24,6 +24,9 @@ public class Library {
             this.stock.add(book);
         }
     }
+    public void checkOutBook(Book){
+        this.stock
+    }
 
     public int getCapacity(){
        return this.capacity;
