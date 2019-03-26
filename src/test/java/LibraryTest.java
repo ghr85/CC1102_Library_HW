@@ -9,7 +9,7 @@ public class LibraryTest {
    private Book book;
 @Before
     public void before(){
-    library = new Library("The Turning Leaf");
+    library = new Library("The Turning Leaf", 4);
     book = new Book("The iliad", "Homer","Classic",-750);
 }
 @Test
@@ -26,5 +26,9 @@ public class LibraryTest {
     public void canAddBookToStock(){
     library.addBook(book);
     assertEquals(1,library.stockCount());
+}
+@Test
+    public void hasCapacity(){
+    assertEquals(4,library.checkCapacity());
 }
 }

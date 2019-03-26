@@ -3,10 +3,12 @@ import java.util.ArrayList;
 public class Library {
     private String name;
     private ArrayList<Book> stock;
+    private int capacity;
 
-    public Library(String name){
+    public Library(String name, int capacity){
         this.name = name;
         this.stock = new ArrayList<>();
+        this.capacity = capacity;
     }
 
     public String getName(){
