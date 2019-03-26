@@ -15,5 +15,7 @@ public String getName(){
 public int countBooks(){
     return this.subscriptions.size();
 }
-
+public void rentBook(Book book){
+    this.subscriptions.add(book);
+}
 }
