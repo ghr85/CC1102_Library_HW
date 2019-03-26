@@ -16,4 +16,9 @@ public class PatronTest {
     public void hasName(){
         assertEquals("Davey",patron.getName());
     }
+
+    @Test
+    public void startsWithEmptySubscriptions(){
+        assertEquals(0,patron.countBooks());
+    }
 }
