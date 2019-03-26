@@ -6,9 +6,11 @@ import static junit.framework.TestCase.assertEquals;
 
 public class LibraryTest {
    private Library library;
+   private Book book;
 @Before
     public void before(){
     library = new Library("The Turning Leaf");
+    book = new Book("The iliad", "Homer","Classic",-750);
 }
 @Test
     public void hasName(){
