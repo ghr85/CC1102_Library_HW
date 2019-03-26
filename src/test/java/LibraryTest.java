@@ -23,7 +23,7 @@ public class LibraryTest {
 }
 
 @Test
-    public void canAddBookToStock(){
+    public void canAddBookToStock_positive(){
     library.addBook(book);
     assertEquals(1,library.stockCount());
 }
@@ -31,5 +31,16 @@ public class LibraryTest {
     public void hasCapacity(){
     assertEquals(4,library.getCapacity());
 }
+
+@Test
+    public void canAddBookToStock_negative(){
+    library.addBook(book);
+    library.addBook(book);
+    library.addBook(book);
+    library.addBook(book);
+    library.addBook(book);
+    assertEquals(4, library.stockCount());
+}
+
 
 }
