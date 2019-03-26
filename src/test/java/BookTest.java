@@ -2,7 +2,6 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
-import static junit.framework.TestCase.assertSame;
 
 public class BookTest {
     private Book book;
