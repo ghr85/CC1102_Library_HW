@@ -1,2 +1,17 @@
 public class Book {
+    private String title;
+    private String author;
+    private String genre;
+    private Integer yearOfPublish;
+
+    public Book(String title, String author,String genre, Integer yearOfPublish){
+        this.title = title;
+        this.author = author;
+        this.genre = genre;
+        this.yearOfPublish = yearOfPublish;
+    }
+
+    public String getTitle(){
+        return this.title;
+    }
 }
