@@ -15,7 +15,8 @@ public String getName(){
 public int countBooks(){
     return this.subscriptions.size();
 }
-public void rentBook(Book book){
+public void rentBook(Library library){
+    Book book = library.checkOutBook();
     this.subscriptions.add(book);
 }
 public Book returnBook(){

@@ -48,8 +48,7 @@ public class LibraryTest {
 @Test
     public void canCheckOutBook(){
     library.addBook(book);
-    Book checkOut = library.checkOutBook();
-    patron.rentBook(checkOut);
+    patron.rentBook(library);
     assertEquals(0,library.stockCount());
     assertEquals(1,patron.countBooks());
 }
